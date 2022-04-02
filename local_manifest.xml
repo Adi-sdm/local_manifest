@@ -2,8 +2,12 @@
 
 <manifest>
 
+	<remote name="Adi"
+		fetch="https://github.com/Adi-sdm" />
+	
  <!-- Trees -->
-
+<remote name="patch"
+		fetch="https://github.com/CipherOS" />
  <project path="device/realme/RMX1941" name="Adi-sdm/device_realme_RMX1941" remote="github" revision="11" />
 
 
