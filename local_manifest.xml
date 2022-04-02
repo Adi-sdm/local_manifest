@@ -2,7 +2,7 @@
 
 <manifest>
 
-	<remote name="Adi"
+<remote name="Adi"
 		fetch="https://github.com/Adi-sdm" />
 	
  <!-- Trees -->
