@@ -2,25 +2,19 @@
 
 <manifest>
 
-<remote name="Adi"
-		fetch="https://github.com/Adi-sdm" />
-	
+        <remote name="Adi"
+	        fetch="https://github.com/Adi-sdm" />
+        <remote name="patch"
+                fetch="https://github.com/CipherOS" />	
  <!-- Trees -->
-<remote name="patch"
-		fetch="https://github.com/CipherOS" />
- <project path="device/realme/RMX1941" name="Adi-sdm/device_realme_RMX1941" remote="github" revision="11" />
-
-
+        <project path="device/realme/RMX1941" name="Adi-sdm/device_realme_RMX1941" remote="Adi" revision="11" />
+        <project path="vendor/realme/RMX1941" name="Adi-sdm/android_vendor_realme_RMX1805" remote="Adi" revision="eleven" />
 <!-- Patches -->
+
 	<remove-project name="platform/external/selinux" />
 	<project path="external/selinux" name="android_external_selinux" remote="patch" revision="eleven" clone-depth="1" />
 	<remove-project name="platform/frameworks/opt/net/ims" />
 	<project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="patch" revision="eleven" clone-depth="1" />
-
- <project path="vendor/realme/RMX1941" name="Adi-sdm/android_vendor_realme_RMX1805" remote="github" revision="eleven" />
-
-
-
  
 
 </manifest>
